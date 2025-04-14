@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- *** UPDATE TITLE *** -->
     <title>Our Products | The Empowered Path</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-    <!-- Update description if needed -->
     <meta name="description" content="Explore digital products for self-healing and mindful parenting from The Empowered Path.">
 </head>
 <body>
@@ -23,21 +21,20 @@
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <!-- *** SET ACTIVE LINK *** -->
                     <li><a href="products.html" class="active">Products</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div class="hamburger">
+                <!-- Hamburger button (Consistent as button) -->
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </nav>
         </div>
     </header>
 
-    <!-- === MAIN CONTENT START === -->
     <main class="page-content">
         <section class="page-header animate-on-scroll fade-in-up">
             <div class="container">
@@ -46,16 +43,12 @@
             </div>
         </section>
 
-        <!-- Re-use the product grid structure -->
         <section class="featured-products all-products">
             <div class="container">
-                 <!-- Optional filter/category links here -->
-
                 <div class="product-grid">
                     <!-- Product 1: Healing Journey -->
                     <div class="product-card animate-on-scroll zoom-in delay-100">
                         <div class="product-image">
-                             <!-- *** IMAGE MATCHED FROM index.html *** -->
                             <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Person writing in a journal with coffee nearby.">
                         </div>
                         <div class="product-content">
@@ -76,7 +69,6 @@
                     <!-- Product 2: Parenting Toolkit -->
                     <div class="product-card animate-on-scroll zoom-in delay-200">
                         <div class="product-image">
-                             <!-- *** IMAGE MATCHED FROM index.html *** -->
                             <img src="https://images.pexels.com/photos/6338775/pexels-photo-6338775.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Close up of parent and child hands touching gently.">
                         </div>
                         <div class="product-content">
@@ -97,7 +89,6 @@
                     <!-- Product 3: Meditation Series -->
                     <div class="product-card animate-on-scroll zoom-in delay-300">
                         <div class="product-image">
-                            <!-- *** IMAGE MATCHED FROM index.html *** -->
                             <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Person meditating peacefully outdoors in nature.">
                         </div>
                         <div class="product-content">
@@ -115,10 +106,9 @@
                         </div>
                     </div>
 
-                    <!-- Placeholder Product 1 with Question Mark -->
+                    <!-- Placeholder Product 1 with Question Mark
                     <div class="product-card animate-on-scroll zoom-in delay-400">
                         <div class="product-image">
-                             <!-- *** QUESTION MARK PLACEHOLDER *** -->
                             <img src="https://via.placeholder.com/600x400/cccccc/888888?text=?" alt="Placeholder for upcoming product">
                         </div>
                         <div class="product-content">
@@ -131,15 +121,14 @@
                             </ul>
                             <div class="product-footer">
                                 <span class="product-price">Coming Soon</span>
-                                <a href="#" class="btn primary-btn disabled" aria-disabled="true" style="pointer-events: none; opacity: 0.7;">Learn More</a> <!-- Added inline style to make disabled more obvious -->
+                                <a href="#" class="btn primary-btn disabled" aria-disabled="true" style="pointer-events: none; opacity: 0.7;">Learn More</a>
                             </div>
                         </div>
                     </div>
 
-                     <!-- Placeholder Product 2 with Question Mark -->
+                      Placeholder Product 2 with Question Mark 
                      <div class="product-card animate-on-scroll zoom-in delay-500">
                         <div class="product-image">
-                             <!-- *** QUESTION MARK PLACEHOLDER *** -->
                             <img src="https://via.placeholder.com/600x400/cccccc/888888?text=?" alt="Placeholder for another product">
                         </div>
                         <div class="product-content">
@@ -155,16 +144,14 @@
                                 <a href="#" class="btn primary-btn">Notify Me</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div> <!-- End product-grid -->
             </div>
         </section>
     </main>
-    <!-- === MAIN CONTENT END === -->
 
     <footer>
-        <!-- Footer content remains the same -->
         <div class="container">
             <div class="footer-grid">
                  <div class="footer-col">
@@ -214,6 +201,7 @@
         </div>
     </footer>
 
+    <!-- *** ADDED MISSING SCRIPT LINK *** -->
     <script src="script.js"></script>
 </body>
 </html>
